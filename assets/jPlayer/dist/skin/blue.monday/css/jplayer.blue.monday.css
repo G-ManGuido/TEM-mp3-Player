@@ -14,6 +14,11 @@
  * Skin Version: 5.1 (jPlayer 2.8.0)
  * Date: 13th November 2014
  */
+
+
+
+
+
 body {
   margin: 5% 10%;
 }
@@ -553,3 +558,26 @@ span.jp-artist {
   font-weight: bold; }
 
 /* @end */
+
+
+/* Kleine Endgeräte (Smartphones, kleiner als 768px) */
+@media (max-width: 575px) {
+
+  body {
+    margin: 0 1%;
+  }
+  
+  .jp-volume-controls{
+    display: none;
+  }
+
+  .jp-toggles{
+    display: none;
+  }
+
+  .jp-playlist ul {
+    font-size: 1.5rem;
+  }
+
+
+}
